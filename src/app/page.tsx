@@ -4,28 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-surface text-text-main font-roboto">
 
-      {/* NAVBAR */}
-      <header className="flex items-center justify-between px-6 py-4 shadow-sm bg-primary text-white sticky top-0 z-50">
-        <div className="flex items-center gap-3">
-          <Image 
-            src="/logo.png" 
-            alt="Zim Herbal Repo Logo" 
-            width={32} 
-            height={32} 
-            className="rounded-full"
-          />
-          <h1 className="font-bold text-xl font-poppins">
-            Zim Herbal Repository
-          </h1>
-        </div>
 
-        <nav className="space-x-4 text-sm font-poppins font-medium">
-          <a href="#" className="hover:text-secondary transition-colors">Home</a>
-          <a href="#" className="hover:text-secondary transition-colors">Herbs</a>
-          <a href="#" className="hover:text-secondary transition-colors">Safety</a>
-          <a href="#" className="hover:text-secondary transition-colors">About</a>
-        </nav>
-      </header>
 
       {/* HERO */}
       <section className="text-center px-6 py-24">
